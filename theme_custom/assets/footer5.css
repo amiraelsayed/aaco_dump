@@ -1,0 +1,311 @@
+body{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+footer#page-footer{
+    border-top: none !important;
+    margin-top: 0 !important;
+    padding-top: 25px !important;
+    height: auto;
+    padding-bottom: 25px;
+}
+.custom_footer.footer{
+    background: #006595 !important;
+    color: #fff;
+    padding: 0 !important;
+    height: 100%;
+}
+.custom_footer.footer a:hover {
+    color: #ea9919;
+}
+.custom_footer div {
+    vertical-align: top;
+    margin-left: 0 !important;
+}
+.custom_footer.footer li, .custom_footer.footer ol {
+    list-style-type: none;
+    list-style-image: none;
+    list-style: none;
+}
+.custom_footer .posRelative,.custom_footer .combodate, .custom_footer .posRel {
+    position: relative;
+}
+.custom_footer.footer a {
+    color: #fff;
+    display: inline-block;
+}
+.custom_footer .toggleFooter {
+    display: block;
+    width: 45px;
+    height: 38px;
+    top: -38px;
+    left: 50%;
+    margin-left: -22px;
+    background: #006595;
+    position: absolute;
+}
+.logoHolder a,
+.headerSearch input[type=submit],
+.flex-direction-nav a:after,
+.findMore:after,
+.readMoreIcon,
+.customSelectInner:after,
+.socialIcon,
+.slSitemap:after,
+.breadCrumbList a:after,
+.toggleFooter:after,
+.icon:before,
+.breadCrumbsBody a:before,
+.toggleleftMenu:after,
+.arrowsCal a,
+.thankyoumessage:before,
+body .RadPicker_Default .rcCalPopup,
+.vspan:before, .zoomIcon, .fancySharingTools a,
+.backLink a,
+.touchBody .mainMenu > ul > li > a.dropdownArrow:after,
+.normalText ul li:before, .editorText ul li:before{
+    background-image: url(https://cdn.jsdelivr.net/gh/EsraaMowafy/assets.github.io/sprite.png);
+    display: inline-block;
+}
+.custom_footer .toggleFooter:after {
+    width: 14px;
+    height: 8px;
+    /*content: "\f078";*/
+    content: "";
+    display: block;
+    top: 13px;
+    left: 50%;
+    margin-left: -7px;
+    position: absolute;
+    background-position: -32px -86px;
+    /*font-family: FontAwesome;*/
+}
+.custom_footer .toggleFooter.flipped:after {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+
+
+.custom_footer .footerTop {
+    padding-bottom: 30px;
+}
+.custom_footer .inlineTitle, .flSitemap {
+    font-size: 17px;
+}
+.custom_footer .inlineMiddle,.custom_footer .inlinedList > li {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.custom_footer .floatLeft {
+    float: left;
+}
+.mainlingList input[type=text] {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    height: auto !important;
+}
+
+.headerSearch input[type=text] {
+    padding: 5px 30px 5px 10px;
+}
+.mainlingList .headerSearch input[type=submit] {
+    background-position: -272px 0;
+}
+.icon,  .headerSearch,  .mainMenu > ul > li {
+    position: relative;
+}
+.headerSearch input[type=text] {
+    padding: 5px 30px 5px 10px;
+}
+.headerSearch input[type=submit] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0 none;
+}
+
+.headerSearch,  .headerBtns {
+    margin-left: 10px;
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    .logoHolder a, .headerSearch input[type=submit], .flex-direction-nav a:after, .findMore:after, .readMoreIcon, .customSelectInner:after, .slSitemap:after, .breadCrumbList a:after, .toggleFooter:after, .icon:before, .breadCrumbsBody a:before, .toggleleftMenu:after, .arrowsCal a, .thankyoumessage:before, body .RadPicker_Default .rcCalPopup, .vspan:before, .zoomIcon, .fancySharingTools a, .backLink a, .touchBody .mainMenu > ul > li > a.dropdownArrow:after, .normalText ul li:before, .editorText ul li:before {
+        background-image: url(../images/sprite@2x.png);
+        display: inline-block;
+        background-size: 300px 1000px;
+    }
+}
+
+
+.headerSearch input[type=submit] {
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    background-position: 0 -114px;
+    padding: 0;
+}
+
+.mainlingList .headerSearch input[type=submit] {
+    background-position: -272px 0;
+}
+
+.headerSearch input[type=submit] {
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    background-position: 0 -114px;
+    padding: 0;
+}
+
+.custom_footer .footerTop span.error {
+    color: #D10000;
+    font-weight: bold;
+}
+.custom_footer .mainlingList .error {
+    margin-left: 5px;
+}
+
+.custom_footer span.error {
+    color: #dc404a;
+    display: inline-block;
+    font-size: 16px;
+}
+.custom_footer .customOverlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.custom_footer .whiteOverlay {
+    background-image: url(../imgs/ajax-loader-white.gif);
+}
+.custom_footer .overlay {
+    background-color: #FFF;
+    background-image: url(../imgs/ajax-loader.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    line-height: 32px;
+    -moz-opacity: 0.40;
+    opacity: 0.40;
+    filter: alpha(opacity=40);
+    position: absolute;
+    z-index: 9;
+}
+.custom_footer .footerColumns {
+    display: none;
+    padding-top: 30px;
+}
+.custom_footer .sitemapList:last-child {
+    margin-bottom: 0;
+}
+.custom_footer sitemapList li{
+    line-height: 15px;
+}
+.custom_footer .flSitemap {
+    margin-bottom: 10px;
+}
+.custom_footer .inlineTitle, .flSitemap {
+    font-size: 17px;
+}
+.custom_footer .footerCol {
+    width: 20%;
+    float: left;
+}
+.custom_footer .rightAlign {
+    text-align: right;
+}
+.custom_footer .mainlingList input[type=text] {
+    background: transparent !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+.headerSearch input[type=text] {
+    padding: 5px 30px 5px 10px !important;
+}
+.custom_footer input,.custom_footer textarea,.custom_footer select {
+    line-height: 16px !important;
+}
+.headerSearch,  .headerBtns {
+    margin-left: 10px !important;
+}
+.headerSearch input[type=submit] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0 none;
+}
+a, .formMain .buttonsMain input[type=submit], .newsMainBlock .lightGrey, .breadCrumbsBody a:before, .relatedActions:after, .icon:after, .icon:before, .secName, .slSitemap:after, .blockImg img, .sliderMain .sliderContent, .sliderMain .fullBg {
+    text-decoration: none;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+.icon:before, .smallTop li + li a:before, .mainMenu > ul > li > a:before, .findMore:after, .slSitemap:after, .breadCrumbList a:after {
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+}
+.logoHolder a, .headerSearch input[type=submit], .flex-direction-nav a:after, .findMore:after, .readMoreIcon, .customSelectInner:after, .socialIcon, .slSitemap:after, .breadCrumbList a:after, .toggleFooter:after, .icon:before, .breadCrumbsBody a:before, .toggleleftMenu:after, .arrowsCal a, .thankyoumessage:before, body .RadPicker_Default .rcCalPopup, .vspan:before, .zoomIcon, .fancySharingTools a, .backLink a, .touchBody .mainMenu > ul > li > a.dropdownArrow:after, .normalText ul li:before, .editorText ul li:before {
+    background-image: url(https://cdn.jsdelivr.net/gh/EsraaMowafy/assets.github.io/sprite.png);
+    display: inline-block;
+}
+.findMore:after, .slSitemap:after, .leftMenuList a.selected:after {
+    position: absolute;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    background-position: 0 -105px;
+    top: 5px;
+}
+
+.slSitemap {
+    padding-left: 15px;
+    position: relative;
+}
+
+.slSitemap:after, .leftMenuList a.selected:after {
+    background-position: -18px -105px;
+}
+
+.slSitemap:hover:after {
+    background-position: -27px -105px;
+}
+.socialMedia {
+    margin-bottom: 20px;
+}
+.socialTitle {
+    color: #838383;
+    font-size: 17px;
+}
+.socialIcon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    -webkit-opacity: 0.7;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+@media screen and (max-width: 767px) and (min-width: 100px){
+    .listImage, .footerCol {
+        float: none !important;
+        width: 100% !important;
+        clear: both !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .footerBottom .rightAlign, .breadCrumbs .rightAlign {
+        text-align: left !important;
+    }
+    #Footer1_up1 .headerSearch.inlineMiddle{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}

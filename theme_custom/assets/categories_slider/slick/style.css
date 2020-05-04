@@ -1,0 +1,26 @@
+.slick_slider .dynamic_li .thumbnail{
+    margin: 4%;
+    background-color: #f1f1f1 ;
+}
+.slick_slider .dynamic_li .thumbnail .cut-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 70%;
+    height: 1.2em;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 700;
+}
+.slick_slider .slick-prev , .slick_slider  .slick-next{
+   background: #222 !important;
+     border-radius: 50%;
+     width: 45px;
+    height: 45px;
+    text-align: center;
+    color: #ea9919 !important;
+    opacity: 0.5;
+}
+.slick_slider .slick-prev:hover, .slick_slider  .slick-next:hover{
+    color: #fff !important;
+    opacity: 1;
+}
